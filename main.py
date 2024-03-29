@@ -5,9 +5,10 @@ from tkinter import Tk, Entry, Button, StringVar
 
 class Calculator:
     def __init__(self,master):
+        # icon can be added 
 
 
-        master.title("akshay's Calculator")
+        master.title("python Calculator")
         master.geometry("360x420+0+0")
         master.config(bg = "grey")
         master.resizable(False, False)
